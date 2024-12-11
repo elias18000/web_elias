@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    background-color: #ffcc00; 
+    padding: 2vh;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+nav button {
+    padding: 2vh;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15vw;
+    margin: 0 1vh; 
+    border: 1px black;
+}
+
+nav button:hover {
+    background-color: #0056b3;   
+}
+
+main {
+    padding: 2vh;
+    flex-grow: 1;
+    background-color: #ffffff; 
+}
