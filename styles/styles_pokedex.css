@@ -10,6 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden; 
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 nav {
@@ -68,6 +70,7 @@ section.pokedex-item img {
     border-radius: 0.5vh;
     box-shadow: 0 0.2vh 0.5vh rgba(0,0,0,0.2);
 }
+
 
 section.pokedex-item input {
     margin-top: 1vh;
