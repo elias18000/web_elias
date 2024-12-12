@@ -40,8 +40,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
-    height: calc(100vh - 80px); 
+    padding: 2vh;
+    height: 86vh; 
     overflow-y: auto; 
     overflow-x: hidden; 
     box-sizing: border-box;
@@ -83,4 +83,12 @@ li {
 p {
     margin-bottom: 10px;
     text-align: justify;
+}
+
+footer {
+    display: flex;
+    background-color: #ffcc00;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
 }

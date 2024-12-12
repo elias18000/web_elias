@@ -5,6 +5,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
+    overflow-x: hidden;
+
 }
 
 nav {
@@ -34,7 +36,8 @@ nav button:hover {
 
 main {
     padding: 2vh;
-    flex-grow: 1;
+    height: 81.4vh;
+    width: 98vw;
     background-color: #ffffff; 
 }
 
@@ -64,4 +67,12 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #218838; 
+}
+
+footer {
+    display: flex;
+    background-color: #ffcc00;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
 }
