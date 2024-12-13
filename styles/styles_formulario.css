@@ -26,12 +26,14 @@ nav button {
     border: none;
     cursor: pointer;
     width: 15vw;
-    margin: 0 1vh; 
+    margin: 0 5vh; 
     border: 1px black;
 }
 
 nav button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;   
+    transform: scale(1.2);
+    z-index: 1;
 }
 
 main {
