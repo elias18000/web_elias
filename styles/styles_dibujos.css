@@ -33,6 +33,7 @@ nav button:hover {
     background-color: #0056b3;   
     transform: scale(1.2);
     z-index: 1;
+    transition: all 0.3s;
 }
 
 main {
@@ -86,6 +87,11 @@ main h1{
 }
 p, .cabecera{
     text-size-adjust: 16px;
+}
+.peliculas:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: all 0.3s;
 }
 
 @media(max-width:768px){

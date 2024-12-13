@@ -38,6 +38,7 @@ nav button:hover {
     background-color: #0056b3;   
     transform: scale(1.2);
     z-index: 1;
+    transition: all 0.3s;
 }
 
 main {
@@ -99,6 +100,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 #titulo{
     font-size: 10vh;
     text-align: center;
