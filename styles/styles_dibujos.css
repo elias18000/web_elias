@@ -19,7 +19,7 @@ nav {
     box-shadow: 0.2vh 0 0.5vh rgba(0,0,0,0.1);
 }
 
-nav button {
+nav button { 
     background-color: #007bff; 
     color: white;
     border: none;
