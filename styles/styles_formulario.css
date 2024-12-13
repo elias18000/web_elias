@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 98vw;
+    width: 98.1vw;
     background-color: #ffcc00;
     padding: 2vh;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
@@ -26,19 +26,25 @@ nav button {
     border: none;
     cursor: pointer;
     width: 15vw;
-    margin: 0 1vh; 
+    margin: 0 5vh; 
     border: 1px black;
 }
 
 nav button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;   
+    transform: scale(1.2);
+    z-index: 1;
 }
 
 main {
     padding: 2vh;
-    height: 81.4vh;
-    width: 98vw;
-    background-color: #ffffff; 
+    height: 80.8vh;
+    width: 98.1vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(/sources/Fondo6.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: #ffffff;
 }
 
 form {
@@ -51,6 +57,12 @@ label {
 }
 
 input {
+    padding: 1vh;
+    margin-bottom: 1.5vh;
+    border: 0.1vh solid #ccc;
+    border-radius: 5px;
+}
+#pokemon{
     padding: 1vh;
     margin-bottom: 1.5vh;
     border: 0.1vh solid #ccc;
