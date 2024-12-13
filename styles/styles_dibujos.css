@@ -42,7 +42,7 @@ main {
     height: 85vh;
     overflow-y: auto; 
     overflow-x: hidden; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(/sources/Fondo6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(../sources/Fondo6.png) ;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
