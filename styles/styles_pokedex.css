@@ -43,12 +43,12 @@ main {
     padding: 2vh;
     flex-grow: 1;
     height: 85vh;
-    background-color: #ffffff; 
     overflow-y: auto; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(/sources/Fondo6.jpg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
+    color: #ffffff;
 }
 
 section.pokedex {
@@ -67,6 +67,10 @@ section.pokedex-item {
     flex-direction: column; 
     align-items: center; 
     margin: 3vh;
+    padding-right: 1vh;
+    border: 0.1vh solid #ccc; 
+    border-radius: 2vh;
+    background-color: rgba(249, 249, 249, 0.5); 
 }
 
 section.pokedex-item img {
@@ -82,7 +86,9 @@ section.pokedex-item input {
     width: 100%; 
     border: 0.1vh solid #ccc; 
     border-radius: 0.5vh; 
-    background-color: #f9f9f9; 
+    background-color: rgba(249, 249, 249, 0.7); 
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
@@ -96,5 +102,5 @@ footer {
 @media (min-width: 400px){
 
 
-    
+
 }

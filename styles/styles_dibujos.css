@@ -5,13 +5,15 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 98vw;
+    width: 98.1vw;
     background-color: #ffcc00; 
     padding: 2vh;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
@@ -35,7 +37,13 @@ nav button:hover {
 main {
     padding: 2vh;
     flex-grow: 1;
-    background-color: #ffffff; 
+    height: 81vh;
+    width: 98.1vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(/sources/Fondo6.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: #ffffff; 
 }
 
 .dibujos {
@@ -48,4 +56,11 @@ main {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 0.2vh 0.5vh rgba(0,0,0,0.2);
+}
+footer{
+    display: flex;
+    background-color: #ffcc00;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
 }
