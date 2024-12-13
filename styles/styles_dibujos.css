@@ -55,6 +55,9 @@ section.dibujos {
 }
 section.peliculas{
     background-color: rgba(73, 72, 72, 0.7); 
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .peliculas input{
