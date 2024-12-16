@@ -1,5 +1,6 @@
-*{
+* {
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,22 +12,21 @@ body {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 98.1vw;
-    background-color: #ffcc00;
-    padding: 2vh;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffcc00; 
+    box-shadow: 0.2vh 0 0.5vh rgba(0,0,0,0.1);
 }
 
 nav button {
-    padding: 2vh;
     background-color: #007bff; 
     color: white;
     border: none;
     cursor: pointer;
     width: 15vw;
-    margin: 0 5vh; 
+    height: 5vh;
     border: 1px black;
 }
 
@@ -34,13 +34,12 @@ nav button:hover {
     background-color: #0056b3;   
     transform: scale(1.2);
     z-index: 1;
+    transition: all 0.3s;
 }
 
 main {
-    padding: 2vh;
-    height: 80.8vh;
-    width: 98.1vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(/sources/Fondo6.jpg);
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(../sources/Fondo6.png) ;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
@@ -85,6 +84,16 @@ footer {
     display: flex;
     background-color: #ffcc00;
     height: 5vh;
+    width: 100vw;
     align-items: center;
     justify-content: center;
+}
+@media(max-width:768px){
+
+    *{
+        font-size: 1.6vw;
+    }
+    footer{
+        font-size: 1.6vw;
+    }
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto - Pokémon</title>
+    <link rel="stylesheet" href="./styles/styles_formulario.css">
+</head>
+
+<body>
+    <nav>
+        <button onclick="location.href='index.html'">Inicio</button>
+        <button onclick="location.href='pokedex.html'">Pokédex</button>
+        <button onclick="location.href='formulario.html'">Formulario de Entrenador</button>
+        <button onclick="location.href='dibujos.html'">Dibujos Animados</button>
+        <button onclick="location.href='contacto.html'">Contacto</button>
+    </nav>
+    <main>
+        <h1>Contacta con nosotros</h1>
+        <p>Si tienes alguna duda, algun error o simplemente quieres decirnos hola, ponte en contacto con nosotros</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]{3,50}" required>
+            <br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>© Pokémon es una marca registrada de Nintendo, Game Freak y Creatures Inc. Este sitio no oficial no está
+            afiliado ni respaldado por ellos.</p>
+    </footer>
+</body>
+
+</html>
