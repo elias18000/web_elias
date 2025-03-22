@@ -20,7 +20,7 @@ function toggleDarkMode() {
 
 window.onload = () => {
     let savedMode = localStorage.getItem('ModoOscuroActivado');
-    if (savedMode === 'true') {
+    if (savedMode == 'true') {
         toggleDarkMode();
     }
 };
