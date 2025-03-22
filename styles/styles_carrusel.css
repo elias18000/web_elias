@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    overflow-x: hidden;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffcc00; 
+    box-shadow: 0.2vh 0 0.5vh rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15vw;
+    height: 5vh;
+    border: 1px black;
+}
+
+button:hover {
+    background-color: #0056b3;   
+    transform: scale(1.2);
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+main {
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(../sources/Fondo6.png) ;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: #ffffff;
+    align-content: center;
+}
+
+.carrusel{
+    background-color: white;
+    height: 65vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+img{
+    width: 30vw;
+    justify-content: space-center;
+    align-items: center;
+}
+
+.botones{
+    padding-top: 1vh;
+    align-items: center;
+    justify-self: center;
+}
+.btnsauto{
+    padding-top: 1vh;
+    align-items: end;
+    justify-self: end;
+    padding-right: 1vh;
+
+}
+.btnsauto > button{
+    width: 5vw;
+}
+
+footer {
+    display: flex;
+    background-color: #ffcc00;
+    height: 5vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode nav {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .carrusel img {
+    filter: brightness(0.8); 
+}
+
+footer.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: #0056b3; 
+}
+
+button.dark-mode:hover {
+    background-color: #004494; 
+    transform: scale(1.1); 
+}
+
+
+@media(max-width:768px){
+
+    *{
+        font-size: 1.6vw;
+    }
+    footer{
+        font-size: 1.6vw;
+    }
+    .carrusel{
+        background-color: white;
+        height: 25vh;
+        width: 35vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+    }
+}
